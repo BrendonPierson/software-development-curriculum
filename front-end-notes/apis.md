@@ -8,7 +8,7 @@ An API is (usually) not a user interface. It provides software-to-software inter
 ##REST: Representational State Transfer
 A RESTful API exposes a URL that can accept requests containing parameters (often contained in the url string).  The API will return a response based on the query parameters. The response format is often in JSON (JavaScript Object Notation).
 
-##Eaxample API usage with an AJAX call
+##Example API usage with an AJAX call
 This call should return information about a movie with the title "The Godfather", with a short version of the plot, in JSON format. In the URL string, you could replace "The+Godfather" with any movie title and it should return that movie's information.
 
     $.ajax({
